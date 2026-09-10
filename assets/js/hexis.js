@@ -3,13 +3,13 @@ document.addEventListener('DOMContentLoaded', function () {
   if (!app || typeof HexisData === 'undefined') return;
 
   const angleMap = {
-    '-3': -60,
-    '-2': -40,
-    '-1': -20,
+    '-3': 60,
+    '-2': 40,
+    '-1': 20,
     '0': 0,
-    '1': 20,
-    '2': 40,
-    '3': 60
+    '1': -20,
+    '2': -40,
+    '3': -60
   };
 
   const saveTimers = new Map();
